@@ -1,0 +1,47 @@
+<div class="row-fluid">
+<form class="form-horizontal span12">
+<fieldset>
+	<legend>
+		详细信息
+	</legend>
+     <br/>
+            <div class="row">
+                <div class="span8">
+
+                    <div class="control-group">
+                        <label class="control-label">班级号:</label>
+
+                        <div class="controls">
+                            <input data-ng-model="group.class_id" type="text">
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label">姓名:</label>
+
+                        <div class="controls">
+                            <input data-ng-model="group.name" type="text">
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label">年龄:</label>
+
+                        <div class="controls">
+                            <input data-ng-model="group.age" type="text">
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+		       </div>
+            </div>
+ </fieldset>
+
+<div class="form-actions">
+    <button class="btn btn-primary save" ng-click="save()">保存</button>
+    <a href="/" class="btn">重置</a>
+</div>
+</form>
+
+</div>
